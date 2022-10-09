@@ -22,7 +22,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let urlString = "http://api.weatherstack.com/current?access_key=181e6509550bb271d8f6aca1bc3fd96a&query=London"
+        
+        let url = URL(string: urlString)
+        let session = URLSession(configuration: .default)
+        let task = session.dataTask(with: url!) { data, response, error in
+            if let data = data {
+                let dataString = String(data: data, encoding: .utf8)
+                print(dataString!)
+            }
+        }
+        task.resume()
     }
 }
 
