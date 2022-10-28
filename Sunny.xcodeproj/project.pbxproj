@@ -16,6 +16,7 @@
 		352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352AD27A2404DD6600FE672A /* ViewController+alertController.swift */; };
 		636303A828F6154500E23ECE /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636303A728F6154500E23ECE /* NetworkWeatherManager.swift */; };
 		636303AA28F618E200E23ECE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636303A928F618E200E23ECE /* Constants.swift */; };
+		638FE531290C7697004AAADB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FE530290C7697004AAADB /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		352AD27A2404DD6600FE672A /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
 		636303A728F6154500E23ECE /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
 		636303A928F618E200E23ECE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		638FE530290C7697004AAADB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				352AD2642403FA5700FE672A /* ViewController.swift */,
+				638FE530290C7697004AAADB /* File.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			files = (
 				352AD2652403FA5700FE672A /* ViewController.swift in Sources */,
 				352AD27B2404DD6600FE672A /* ViewController+alertController.swift in Sources */,
+				638FE531290C7697004AAADB /* File.swift in Sources */,
 				636303A828F6154500E23ECE /* NetworkWeatherManager.swift in Sources */,
 				352AD2612403FA5700FE672A /* AppDelegate.swift in Sources */,
 				352AD2632403FA5700FE672A /* SceneDelegate.swift in Sources */,
